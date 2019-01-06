@@ -1,0 +1,74 @@
+@media screen and (max-width: 480px) {
+    body {
+        padding-top: 4rem;
+        background: url(images/bg.jpg) no-repeat, #1e1f23;
+        margin: 0;
+        background-size: contain;
+    }
+
+    header > .logo {
+        margin: 0 0 2rem 0;
+    }
+
+    header > .logo a {
+        font-size: 2.5rem;
+    }
+
+    .wrapper > header.special {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .wrapper > header h2:after {
+        width: 45%;
+    }
+
+    .wrapper.style1 .content {
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        background: #F4F4F4;
+        color: #A8A8A8;
+    }
+
+    .wrapper > header {
+        padding: 0;
+        width: 100%;
+    }
+
+    .wrapper.style2 {
+        padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    .wrapper > header h2 {
+        padding-top: 1rem;
+    }
+
+    .wrapper header p {
+        padding: 0 0.7rem 1rem 0.7rem;
+    }
+
+    .gallery > * {
+        width: 100%;
+    }
+
+    .spotlight > * {
+        width: 100%;
+    }
+
+    .spotlight .inner {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .spotlight.alt p:last-child {
+        padding-bottom: 1rem;
+        color: #4D4E51;;
+    }
+
+    .spotlight > .inner p{
+        color: #9B9B9B;
+    }
+
+    footer{
+        color: #979798;
+    }
+}

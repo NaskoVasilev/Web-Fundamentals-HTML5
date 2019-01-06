@@ -1,0 +1,88 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body{
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+
+section{
+    width: 800px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+
+#forms > p{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+form{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+input[type="text"]{
+    display: block;
+    width: 70%;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid lightgray ;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+input[type="submit"]{
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    background-color: #AFDF67;
+    cursor: pointer;
+}
+
+#login > a{
+    display: inline-block;
+    color: #AFDF67;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+#login > a:hover{
+   border-bottom: 2px solid #AFDF67;
+    cursor: pointer;
+}
+
+i{
+    position: relative;
+    top: -42px;
+    left: 240px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.fa-times{
+    background-color: red;
+    padding: 5px 8px;
+}
+
+.fa-check{
+    background-color: green;
+    padding: 5px;
+}
+
+

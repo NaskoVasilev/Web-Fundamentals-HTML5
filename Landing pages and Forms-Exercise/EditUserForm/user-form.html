@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit User Form</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="user-form.css">
+</head>
+<body>
+    <header>
+        <h1>edit user</h1>
+    </header>
+
+    <form action="#">
+        <label for="username">Username</label>
+        <div>
+            <input type="text" id="username">
+        </div>
+
+        <label for="email">Email</label>
+        <div>
+            <input type="text" id="email">
+        </div>
+
+        <label for="number">Phone number</label>
+        <div>
+            <input type="number" id="number">
+        </div>
+
+        <label>User type</label>
+        <div>
+            <input type="radio" value="Broadband">
+            <span class="radio">Broadband</span>
+            <input type="radio" value="Radio">
+            <span class="radio">Radio</span>
+        </div>
+
+        <label for="password">Change password</label>
+        <div>
+            <input type="password" id="password">
+        </div>
+
+        <label>Group</label>
+        <div class="groups">
+            <div>
+                <input type="checkbox" value="All Groups">
+                <span class="checkbox">All Groups</span>
+            </div>
+            <div>
+                <input type="checkbox" value="Group 1">
+                <span class="checkbox">Group 1</span>
+            </div>
+            <div>
+                <input type="checkbox" value="Group 2">
+                <span class="checkbox">Group 2</span>
+            </div>
+            <div>
+                <input type="checkbox" value="Group 3">
+                <span class="checkbox">Group 3</span>
+            </div>
+            <div>
+                <input type="checkbox" value="Group 4">
+                <span class="checkbox">Group 4</span>
+            </div>
+        </div>
+
+        <label for="contacts">Contacts</label>
+        <br>
+        <a id="contacts" href="#">See contact list</a>
+        <div class="buttons">
+            <input class="cancel" type="submit" value="CANCEL">
+            <input class="save" type="submit" value="SAVE">
+        </div>
+    </form>
+</body>
+</html>

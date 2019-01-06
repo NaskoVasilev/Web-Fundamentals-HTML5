@@ -1,0 +1,89 @@
+body{
+    background: #EBEBEB;
+    font-family: 'Tahoma', 'Helvetica', sans-serif ;
+}
+
+section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    background-color: #F1F1F1;
+    padding: 20px;
+    color: deepskyblue;
+    border-bottom: 1px dashed gray;
+}
+
+#basic-info{
+    border-bottom: 1px dashed gray;
+    padding-bottom: 10px;
+}
+
+#search{
+    display: inline-block;
+    width: 20%;
+    margin-left: 50px;
+}
+
+#basic-info p{
+    margin: 0;
+    width: 70%;
+    display: inline-block;
+}
+
+#reservation-form div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#reservation-form > div:first-of-type{
+    width: 35%;
+}
+
+#reservation-form > div:nth-child(2){
+    width: 40%;
+}
+
+#reservation-form div:first-of-type input{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#reservation-form > div:nth-child(2) label{
+    display: inline-block;
+    margin: 5px;
+}
+
+#reservation-form > div:nth-child(2) select{
+   width:200px;
+    margin: 5px;
+}
+
+#reservation-form > div:nth-child(2) input{
+    width:200px;
+    margin: 5px;
+}
+
+#reservation-form {
+    border-bottom: 1px dashed gray;
+}
+
+button{
+    background-color: deepskyblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+    top: 220px;
+}
+
+button:hover{
+    background-color: greenyellow;
+}
+
+
+
+

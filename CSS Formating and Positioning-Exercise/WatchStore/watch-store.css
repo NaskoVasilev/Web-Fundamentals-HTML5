@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Lemon-Regular';
+    src: url('fonts/Lemon-Regular.ttf');
+}
+
+body{
+    font-family: 'Lemon-Regular', 'Arial', sans-serif;
+    font-size: 15px;
+}
+
+section{
+    width: 90%;
+    background: #FFAE32;
+    margin: 0 auto;
+    border-radius:20px;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    padding: 20px;
+}
+
+section article{
+    display: inline-block;
+    width: 28%;
+    background-color: #5B1F52;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 0 20px 20px 40px;
+    text-align: center;
+}
+
+section article img{
+    width: 80%;
+    margin-top: 20px ;
+    border: 5px solid gray;
+    border-radius: 50%;
+}
+
+span{
+    color: orange;
+}
+
+p, h2{
+    color: #fff;
+}
+
+p{
+    text-align: left;
+    margin: 2px 0 2px 20px;
+}
+
+button{
+    width: 80%;
+    border-radius: 20px;
+    border: transparent;
+    background-color: #fff;
+    color: purple;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 7px;
+    padding: 2px;
+}

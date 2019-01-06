@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    background-color: #f3f5f7;
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    font-family: "Comfortaa", sans-serif;
+    float: left;
+    margin: 0;
+    width: 15%;
+    height: 850px;
+    text-align: center;
+    background-color: #fff;
+}
+
+aside ul li {
+    list-style: none;
+    padding-top: 20px;
+    text-align: left;
+}
+
+aside ul li a {
+    text-decoration: none;
+
+}
+
+aside ul li a:hover {
+    color: #000;
+}
+
+aside img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+aside h1 {
+    font-size: 40px;
+}
+
+aside figcaption, a {
+    text-transform: uppercase;
+    color: #b1bfc6;
+    font-size: 14px;
+}
+
+h2 {
+    position: relative;
+    font-weight: normal;
+    left: 40px;
+    text-transform: capitalize;
+}
+
+h4 {
+    position: relative;
+    left: 40px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+h5 {
+    position: relative;
+    font-weight: normal;
+    left: 40px;
+    text-transform: capitalize;
+}
+
+.number {
+    color: gray;
+}
+
+.add-property {
+    position: relative;
+    left: 800px;
+    bottom: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ff7739;
+    padding: 10px;
+    border-radius: 20px;
+    border: transparent;
+    width: 156px;
+}
+
+.add-property:hover {
+    color: #ff7739;
+    background-color: #fff;
+    border: 3px solid #ff7739;
+    cursor: pointer;
+}
+
+main {
+    float: right;
+    width: 85%;
+    text-transform: capitalize;
+}
+
+article {
+    width: 28%;
+    display: inline-block;
+    background-color: #ffffff;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+body > main > section > article:nth-child(6), article:first-of-type {
+    margin-left: 50px;
+}
+
+article img {
+    width: 97%;
+}
+
+div {
+    position: relative;
+    text-align: center;
+    width: 75px;
+    height: 25px;
+    top: 40px;
+    right: 15px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.rented {
+    background-color: #91a5af;
+    opacity: 0.7;
+}
+
+.listed {
+    background-color: #68bc69;
+}
+
+.draft {
+    background-color: #91a5af;
+}
+
+p, span {
+    padding-left: 20px;
+    color: #91a5af;
+}
+
+span {
+    margin-bottom: 10px;
+}
+

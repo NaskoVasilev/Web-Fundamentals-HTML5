@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ED7046;
+    height: auto;
+}
+
+nav {
+    text-align: right;
+    float: right;
+    margin-top: 10px;
+}
+
+header {
+    margin-top: 25px;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+header h1 {
+    border: 1px double #BB4846;
+    display: inline;
+    padding: 5px 10px;
+    font-size: 3em;
+    font-style: italic;
+    color: #4d3a3a;
+    position: relative;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px double #BB4846;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+section {
+    background: #F9B544;
+    margin-top: 40px;
+    height: auto;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+article {
+    width: 95%;
+    height: auto;
+    border: 1px solid red;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+}
+
+article figure {
+    float: right;
+    width: 20%;
+}
+
+article figure img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+article p {
+    width: 75%;
+    padding: 10px 20px 10px 20px;
+}
+
+article button{
+    border: 2px solid #BB4846;
+    border-radius: 5px;
+    background: transparent;
+    padding: 10px 20px;
+    margin: 0 0 20px 20px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: #BB4846;
+    outline: none;
+}
+
+article button:hover, li:hover{
+    color: white;
+    background-color: #BB4846;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer{
+    border: dotted #BB4846;
+    border-radius: 10px;
+    color: #4d3a3a;
+    text-align: center;
+    margin: 20px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 10px 3px;
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header nav {
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #CE7061;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+header article {
+    background: url("images/header.png") no-repeat center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    padding-top: 120px;
+    font-size: 30px;
+}
+
+header article p {
+    width: 50%;
+    margin: 30px auto 0 auto;
+    padding-bottom: 120px;
+    line-height: 25px;
+    color: #C1BCC4;
+}
+
+#find-monkey {
+    background-color: #F05F40;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#find-monkey > h2:after {
+    content: "";
+    display: block;
+    width: 3%;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin: 20px auto auto;
+}
+
+#find-monkey h2 {
+    padding-top: 50px;
+    margin: 0;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+#find-monkey p {
+    color: #FFC3A9;
+    width: 54%;
+    margin: auto;
+    padding-bottom: 20px;
+    line-height: 23px;
+}
+
+#find-monkey button {
+    padding: 10px 20px;
+    background-color: #F5F9FB;
+    border-radius: 20px;
+    border: none;
+    color: #2F2B2E;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#find-monkey button:hover{
+    background-color: #E2E6EA;
+}
+
+#monkey-kind {
+    text-align: center;
+}
+
+#monkey-kind article {
+    width: 17%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+#monkey-kind > h2 {
+    padding: 20px;
+}
+
+#monkey-kind > h2:after, header article h1:after {
+    content: "";
+    display: block;
+    width: 3%;
+    height: 2px;
+    background-color: #F35D42;
+    margin: 20px auto auto;
+}
+
+#monkey-kind h2 {
+    font-weight: normal;
+}
+
+#monkey-kind article i {
+    font-size: 50px;
+    color: #F35D42;
+}
+
+#monkey-kind article p {
+    color: #757575;
+    line-height: 20px;
+}
+
+#photos {
+    padding: 0 25px;
+    border-bottom: 3px solid #DD644C;
+    border-top: 3px solid #DD644C;
+    display: flex;
+    justify-content: space-between;
+}
+
+#photos img {
+    width: 30.5%;
+    border-left: 3px solid #DD644C;
+    border-right: 3px solid #DD644C;
+    height: 250px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+}
+
+footer span {
+    color: #B9A19C;
+}
+
+
+
+

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body{
+    font-size: 16px;
+    font-family: 'Neucha', sans-serif;
+    margin: 0;
+}
+
+header ul{
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+header > article > img{
+    width: 10%;
+}
+
+header article ul{
+    float: right;
+    clear: right;
+    list-style-type: none;
+    padding-right: 10px;
+    color: #000;
+    padding-top: 15px;
+}
+header nav{
+    width: 50%;
+    margin: 0 auto;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding:20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header > section#menu{
+    background: url("images/background.jpg") no-repeat;
+    background-size: cover;
+}
+
+header h1{
+    width: 55%;
+    margin: 0 auto;
+    font-size: 80px;
+    padding: 150px 0;
+    line-height: 95px;
+}
+
+#about-us{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#about-us>article{
+    width: 17%;
+    padding: 20px 30px;
+    display: inline-block;
+}
+
+#about-us article img{
+    width: 35%;
+}
+
+#about-us h4{
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+#about-us h2{
+    font-size: 2.7em;
+    margin-bottom: 5px;
+}
+
+#about-us article h5{
+    font-size: 1em;
+    margin: 5px;
+}
+
+#about-us article p{
+    font-weight: bold;
+}
+
+#about-us button{
+    border : none;
+    background: #89D4EF;
+    padding:10px 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#photos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+#photos img{
+    width: 33.33%;
+}
+
+footer{
+    background: #82CA9C;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 20px;
+    list-style: square;
+    font-weight: bold;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+}
+
+footer ul li i{
+    padding-right: 15px;
+    font-size: 0.5em;
+    vertical-align: middle;
+}
+
+
+footer h2{
+    font-size: 2em;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+footer ul{
+    margin: 0;
+}

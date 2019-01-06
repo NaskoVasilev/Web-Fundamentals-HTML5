@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>КАК ДА ВИ ПОМОГНЕМ?</h1>
+        <p>Попълнете полетата с информация по-долу и ние ще се свържем с Вас директно</p>
+    </header>
+    <section>
+        <div id="more-info">
+            <article>
+                <h2>АДРЕС:</h2>
+                <p>
+                    кв.Подуяне,ул.Гълъбец N28, гр.София
+                </p>
+            </article>
+            <article>
+                <h2>РАБОТНО ВРЕМЕ:</h2>
+                <p>
+                    Понеделник / Събота: 10.30 -19.00 ч.
+                </p>
+            </article>
+            <article>
+                <h2>ТЕЛЕФОН ЗА ВРЪЗКА:</h2>
+                <p>
+                    02/87 34757 0887/80 31 87
+                </p>
+            </article>
+            <article>
+                <h2>Е-МАIL:</h2>
+                <p>
+                    to_ja@abv.bg
+                </p>
+            </article>
+        </div>
+        <figure>
+            <img src="images/map.jpg" alt="">
+            <figcaption>
+                *на 10 минути пеша от <span>Сточна гара</span> (подходящ градски транспорт- <span>автобус 413</span> (Младост 4 - Централна Ж.П.Г)
+            </figcaption>
+        </figure>
+        <div id="form-wrapper">
+            <form action="#">
+                <label>
+                    <div>ПОТРЕБИТЕЛСКО ИМЕ</div>
+                    <input type="text" placeholder="Потребителско име">
+                    <i class="fas fa-user-alt"></i>
+                </label>
+                <label>
+                    <div>E-MAIL</div>
+                    <input type="email" placeholder="E-Mail">
+                    <i class="fas fa-envelope"></i>
+                </label>
+                <label>
+                    <div>ПАРОЛА</div>
+                    <input type="password" placeholder="*******">
+                    <i class="fas fa-lock"></i>
+                </label>
+                <label>
+                    <div>ПОТВЪРДИ ПАРОЛА</div>
+                    <input type="text" placeholder="*******">
+                    <i class="fas fa-lock"></i>
+                </label>
+                <textarea name="message" id="message" placeholder="Съобщение *"></textarea>
+                <input type="submit" id="submit" value="ИЗПРАТИ">
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    color: #191923;
+    font-size: 15px;
+    font-family: Tahoma, Arial, sans-serif;
+    background: #CACAC9;
+}
+
+nav {
+    background: #ffffff;
+    padding: 15px 0;
+    margin: 29px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #191923;
+}
+
+ul li a:hover {
+    color: #BF1363;
+}
+
+main {
+    margin-left: 30px;
+}
+
+section {
+    background: #ffffff;
+    width: 23%;
+    display: inline-block;
+    height: 300px;
+    float: left;
+    margin-right: 25px;
+}
+
+section img {
+    width: 303px;
+    height: 170px;
+}
+
+section h2 {
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+section p{
+    margin-left: 20px;
+}
+
+section:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+

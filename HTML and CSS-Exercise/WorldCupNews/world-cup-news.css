@@ -1,0 +1,29 @@
+#wrapper{
+    width: 700px;
+    height: 730px;
+    border:1px solid #000000;
+    margin: auto;
+    padding: 10px;
+    background-color: #abe1ec;
+}
+
+img{
+    width: 200px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.text{
+    color: #2EA620;
+}
+
+li{
+    width: 520px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+    list-style: none;
+}
+
+
+

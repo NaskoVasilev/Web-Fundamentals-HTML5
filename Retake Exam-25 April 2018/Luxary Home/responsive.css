@@ -1,0 +1,162 @@
+@media screen and (max-width: 480px) {
+    .div-header {
+        display: none;
+    }
+
+    .logo-center {
+        width: 50%;
+    }
+
+    header h3 {
+        font-size: 18px;
+    }
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    .options {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .options article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gallery {
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .gallery article {
+        text-align: center;
+    }
+
+    .gallery article p {
+        margin-top: 20px;
+    }
+
+    .gallery article a {
+        margin-left: unset;
+    }
+
+    .gallery article img{
+        width: 100%;
+        height: unset;
+    }
+
+    main h2 {
+        padding: 30px 0 0 0;
+    }
+
+    .blog {
+        padding-bottom: 0;
+    }
+
+    .blog-title {
+        padding: 20px 0px;
+        width: 95%;
+    }
+
+    .blog-title h4 {
+        font-size: 30px;
+        margin: auto;
+    }
+
+    .blog article img {
+        width: 100%;
+        display: none;
+    }
+
+    .blog .blog-title h4 > span, .blog-title a {
+        display: none;
+    }
+
+    .blog article {
+        flex-direction: column;
+    }
+
+    .blog article #about-blog {
+        width: 94%;
+        margin: 25px auto;
+    }
+
+    .magazine-title a {
+        display: none;
+    }
+
+    .magazine-title h4 {
+        font-size: 23px;
+        margin: auto;
+    }
+
+    .magazine-title {
+        width: 100%;
+        padding: 0 0 20px 0;
+        word-wrap: break-word;
+    }
+
+    .magazine article {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .magazine-info{
+        margin-left: unset;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #magazine-img{
+        width: 80%;
+        height: unset;
+        padding-left: unset;
+        border: none;
+        margin: 0 auto;
+    }
+
+    .magazine-info img{
+        width: 100%;
+        height:  auto;
+    }
+
+    .magazine-info h2{
+        padding-bottom: 20px;
+    }
+
+    .magazine-info h3{
+        padding: 10px 0 20px 0;
+    }
+
+    .magazine-info p{
+        margin: 0 15px;
+    }
+
+    .magazine-info button{
+        margin: 20px 0 0 0;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 20px 0 0 5px;
+    }
+
+    footer div a{
+        display: block;
+    }
+
+    footer p{
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .magazine-title h4 span{
+        display: block;
+        text-align: left;
+        margin-left: -20px;
+    }
+}

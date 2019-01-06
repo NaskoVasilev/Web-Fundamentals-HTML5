@@ -1,0 +1,101 @@
+@media screen and (max-width: 1200px){
+   .wrapper{
+       width: 100%;
+   }
+
+    .wrapper h1, .wrapper .goal{
+        padding:0 25px
+    }
+
+    .content-wrap{
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .content.woodsmoke .large-text-link{
+        margin-left: 30px;
+    }
+
+    .main-foot .wrapper{
+        flex-wrap: wrap;
+        padding-left: 30px;
+    }
+
+    .main-foot > .wrapper *{
+        flex-basis: 48%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .hero-head{
+        text-align: center;
+        background: black;
+        min-height: unset;
+        padding-bottom: 30px;
+    }
+
+    .hero-head .main-nav{
+        display: none;
+    }
+    
+    .hero-head .main-nav-trigger{
+        display: inline-block;
+        position: relative;
+        top: 30px;
+        float: right;
+    }
+    
+    .hero-head .goal{
+        max-width: unset;
+        width: 92%;
+        float: none;
+    }
+
+    .hero-head h1{
+        font-size: 45px;
+        float: none;
+    }
+
+    .button{
+        width: 100%;
+    }
+
+    .content-wrap h3{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .content-wrap .module-text{
+        text-align: center;
+    }
+
+    .sponsorship{
+        padding-right: 30px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+
+    .button-list{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .sponsors h3{
+        font-size: 35px;
+    }
+
+
+    .main-foot .wrapper{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .main-foot > .wrapper *{
+        flex-basis: 100%;
+    }
+
+    .main-foot .bottom .copyright{
+        float: none;
+    }
+}

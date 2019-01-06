@@ -1,0 +1,116 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, rgb(160, 105, 92), rgb(241, 222, 189));
+}
+
+#wrapper {
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 9px rgba(178, 132, 114, 1);
+    background: #FFFFFF;
+}
+
+#wrapper > article {
+    width: 50%;
+}
+
+#wrapper article img {
+    width: 68%;
+    margin: 17% 0 17% 20%;
+}
+
+#login-form h2 {
+    margin-top: 70px;
+    margin-left: 12%;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+#login-form form label > input, input[type="submit"] {
+    display: block;
+    background: #E6E6E6;
+    padding: 15px 0 15px 55px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 50%;
+}
+
+#login-form label i{
+    position: relative;
+    top: 33px;
+    left: 25px;
+    font-size: 16px;
+    color: #666666;
+}
+
+#login-form form div.radio {
+    color: #A9ADBA;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    position: relative;
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+div.radio input{
+    position: absolute;
+    opacity: 1;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    left: 0;
+}
+
+div.radio .custom-button{
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border: 5px solid #AAAAAA;
+    border-radius: 50%;
+    outline: none;
+}
+
+input[type="submit"]{
+    font-weight: bold;
+    color: white;
+    background:#8E6B52;
+    width: 62%;
+    padding: 15px 30px;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+input[type='submit']:hover{
+    cursor: pointer;
+    background: #5E4736;
+}
+
+#forgotten-data {
+    color: #A9ADBA;
+    margin: 10px 30px;
+}
+
+#forgotten-data a{
+    color: #65615D;
+}
+
+#new-account{
+    color: #65615D;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#new-account a{
+    color: #65615D;
+}

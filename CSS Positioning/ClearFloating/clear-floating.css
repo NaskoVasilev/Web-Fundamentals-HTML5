@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box
+}
+
+header, footer {
+    background: #8b603d;
+    color: white;
+    padding: 15px;
+    border: 2px solid #4B4B4B;
+}
+
+.menu {
+    width: 20%;
+}
+
+main aside.float-left {
+    float: left;
+    padding: 15px;
+}
+
+.float-right{
+    float: right;
+}
+
+.content{
+    width: 80%;
+}
+
+aside ul li {
+    list-style: none;
+    text-transform: capitalize;
+    background-color: #33b5e5;
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.content h2{
+    font-size: 35px;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+main:after{
+    content: '';
+    clear: both;
+    display: block;
+}

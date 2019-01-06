@@ -1,0 +1,27 @@
+body{
+    text-align: justify;
+}
+
+div{
+    background: #6495ED;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-shadow: 0 0 5px white;
+}
+
+.left{
+    float: left;
+    margin-right: 10px;
+}
+
+.right{
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.center{
+    width: 10%;
+    margin: 0 auto;
+    text-align: center;
+}

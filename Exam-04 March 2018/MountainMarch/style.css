@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    height: 500px;
+}
+
+#sigh-up {
+    width: 45%;
+    background: linear-gradient(rgba(124, 51, 126, 0.23), rgba(124, 51, 126, 0.8)),
+    url("img/peak.jpg") center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#sigh-up h1 {
+    font-size: 2.2em;
+    font-weight: 900;
+}
+
+#sigh-up p{
+    margin-top: 340px;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+#sigh-up div{
+    font-size: 1.2em;
+    color: lightgreen;
+}
+
+#form-article {
+    width: 55%;
+    border: 2px solid #892064;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#form-article > div{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#form-article form{
+    padding-top: 40px;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+
+#form-article label{
+    display: block;
+    color: #D9D9D9;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+#form-article input {
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid #892064;
+    padding-top: 7px;
+    outline: none;
+}
+
+#form-article input::placeholder{
+    font-size: 20px;
+}
+
+#buttons{
+    margin-top: 20px;
+}
+
+#form-article #buttons #get-started{
+    padding: 10px 15px;
+    border: none;
+    background:#892064;
+    border-radius: 15px;
+    color: white;
+    text-shadow: 2px 2px 2px lightgray;
+    outline: none;
+    font-size: 18px;
+}
+
+#form-article #buttons #sign-in{
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #8E60A2;
+    text-shadow: 2px 2px 2px #8E60A2;
+    font-size: 18px;
+}
+
+#form-article #buttons span{
+    font-size: 18px;
+    padding: 0 5px;
+}

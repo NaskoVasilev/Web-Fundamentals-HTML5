@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url("images/background-header.jpg") center;
+    background-size: cover;
+    text-align: center;
+    height: 40em;
+}
+
+header #logo {
+    text-align: left;
+}
+
+header #logo img {
+    width: 10%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+header h2 {
+    margin-top: 60px;
+    color: #706D72;
+    font-weight: 100;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-weight: 900;
+    font-size: 70px;
+    margin: 0 0 30px 0;
+}
+
+header p {
+    color: #2E2A2A;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px lightgray;
+    width: 70%;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+#header-buttons {
+    margin: 50px 0;
+}
+
+#header-buttons button {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    margin: 5px;
+    background: #F42257;
+}
+
+#header-buttons button:first-of-type {
+    background: #322D5F;
+}
+
+#about-us {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#about-us article {
+    width: 27%;
+    padding: 30px 0;
+}
+
+#about-us i {
+    color: #C17F3F;
+    border: 2px solid #C17F3F;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 35px;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+#about-us h2 {
+    font-style: italic;
+}
+
+#moon {
+    background: url("images/moon.jpg");
+    background-size: cover;
+    height: 33em;
+}
+
+#moon article {
+    border: 2px solid #BC8140;
+    width: 35%;
+    height: 30em;
+    margin-left: 75px;
+    color: #fff;
+    text-align: center;
+    background: rgba(40, 50, 61, 0.8);
+}
+
+#moon article h2 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+#moon article p:first-of-type {
+    font-style: italic;
+    padding: 20px 0;
+}
+
+#moon article p:nth-of-type(2) {
+    padding: 0 30px;
+}
+
+#buttons {
+    margin-top: 50px;
+}
+
+#buttons button {
+    border: none;
+    width: 100px;
+    height: 100px;
+    margin: 30px 60px;
+    font-size: 16px;
+    border-radius: 50%;
+    background: linear-gradient(to right, rgb(255, 171, 81), rgb(240, 211, 83));
+}
+
+footer {
+    background: #04040E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+footer p {
+    margin: 0;
+    padding: 20px 0 0 5%;
+}
+
+footer span{
+    text-transform: uppercase;
+    color: #9A6232;
+}
+
+footer div{
+    margin-right: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer i{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #0000FF;
+    color: #0000FF;
+    font-size: 30px;
+    border-radius: 50%;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+
+footer div i:nth-of-type(2){
+    color: #00BFFF;
+    border-color: #00BFFF;
+}
+
+footer div i:nth-of-type(3){
+    color: #8C3DC1;
+    border-color: #8C3DC1;
+}

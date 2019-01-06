@@ -1,0 +1,74 @@
+@media screen and (max-width: 1200px) {
+    body > #wrapper, header, main {
+        width: 95%;
+    }
+
+    header{
+        background-size: cover;
+    }
+
+    main {
+        box-sizing: border-box;
+        padding: 40px;
+    }
+
+    main section {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header nav > ul li {
+        width: 18%;
+    }
+
+    main > aside{
+        width: 100%;
+        margin: 0;
+    }
+
+    main > aside > article{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    header nav ul li{
+        width: 100%;
+    }
+
+    header > nav ul li:last-of-type{
+        margin-bottom: 20px;
+    }
+
+    header > nav{
+        height: unset;
+    }
+
+    /*main > section > div {*/
+        /*display: flex;*/
+        /*flex-direction: column;*/
+    /*}*/
+    
+    main > section{
+        float: none;
+    }
+
+    main section > div > div{
+        float: none;
+        background: #D7C6A8;
+        margin-right: 0;
+    }
+
+    main section > div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+        height: auto;
+    }
+
+
+    header > h1{
+       font-size: 40px;
+    }
+}

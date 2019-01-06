@@ -1,0 +1,101 @@
+@import url('https://fonts.google.com/selection?selection.family=Lato:300,400,900');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+header {
+    background-color: #24437C;
+    height: 620px;
+}
+
+header nav img {
+    width: 80px;
+    height: 15px;
+    margin: 5px;
+}
+
+nav{
+    margin: 0 10px 10px 10px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+li.cta-btn {
+    background-color: #3DC1EF;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 75px;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+header > h2{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #618D9F;
+}
+
+header div{
+    text-align: center;
+    margin: 40px 0;
+}
+div a.header-btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3DC1EF;
+}
+
+header > ul {
+    text-align: center;
+}
+
+header > ul li{
+    display: inline-block;
+    list-style: none;
+    width : 25%;
+    padding: 0 30px;
+    text-align: justify;
+}
+
+header ul li article p{
+    padding: 30px 0;
+}
+
+ul li article p a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+
+header > ul li:hover{
+    background-color: #3DC1EF;
+}
+

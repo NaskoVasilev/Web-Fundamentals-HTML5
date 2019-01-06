@@ -1,0 +1,75 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+#product-form {
+    background-color: rgb(243,226,255);
+    width: 70%;
+    border-radius: 20px;
+    margin: 50px auto;
+    height: 462px;
+}
+
+#product-form img {
+    float: left;
+    width: 40%;
+    padding: 50px 0;
+    background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#product-form h1 {
+    padding-top: 35px;
+    margin-left: 430px;
+}
+
+#product-form h2 {
+    padding: 15px;
+    margin-left: 410px;
+    color: #5B5B5B;
+}
+
+form {
+    margin-left: 430px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input, select {
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-left: 10px;
+    width: 30%;
+}
+
+#size {
+    background-color: #42C9CA;
+}
+
+#name, #card-number{
+    background: transparent;
+    border-bottom:2px solid #42C9CA;
+}
+
+#name::placeholder, #card-number::placeholder{
+    color: #42C9CA;
+}
+
+button{
+    display: block;
+    margin-top: 30px;
+    border: 2px solid #42C9CA;
+    background: transparent;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #42C9CA;
+}

@@ -1,0 +1,72 @@
+@media screen and (max-width: 980px){
+    .zerogrid{
+        width: 100%;
+    }
+
+    .wrap-header{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    header #logo{
+        position: unset;
+        padding-left: 40%;
+    }
+
+    header #logo a{
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    nav .wrap-nav{
+        top: 0;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .menu ul li{
+        position: unset;
+        float: none;
+        display: inline-block;
+    }
+
+    .zerogrid .col-1-4{
+        width: 49%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .zerogrid .col-1-3{
+        width: 100%;
+    }
+
+    .zerogrid .col-2-3{
+        width: 0%;
+    }
+}
+
+@media screen and (max-width: 465px){
+    .zerogrid .col-1-4{
+        width: 100%;
+    }
+
+    nav .wrap-nav .menu{
+        display: none;
+    }
+
+    header #logo{
+        display: none;
+    }
+
+    nav .wrap-nav .minimenu{
+        display: block;
+    }
+    nav .wrap-nav .minimenu div{
+        border: 1px solid white;
+    }
+
+    nav .wrap-nav{
+        height: 130px;
+    }
+}

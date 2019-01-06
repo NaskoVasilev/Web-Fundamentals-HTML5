@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="room-reservation.css">
+</head>
+<body>
+    <section>
+        <h1>Room Reservation</h1>
+        <div id="basic-info">
+            <h2>Basic Information</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+                blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
+                nec commodo.
+            </p>
+            <form action="#" id="search">
+                <label>
+                    <span>Search</span>
+                    <input type="text">
+                </label>
+            </form>
+        </div>
+        <form action="#" id="reservation-form">
+            <div id="personal-details">
+                <h2>Personal Details</h2>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="Enter email">
+            </div>
+           <div id="room-reservation">
+               <h2>Request a reservation</h2>
+               <label>
+                   <span>Select a room</span>
+                   <br>
+                   <select id="rooms">
+                       <option value="1">Room 1</option>
+                       <option value="2">Room 2</option>
+                       <option value="3">Room 3</option>
+                   </select>
+               </label>
+               <label>
+                   <span>Number of Rooms</span>
+                   <br>
+                   <input type="text">
+               </label>
+               <label>
+                   <span>Check-In:</span>
+                   <br>
+                   <input type="date">
+               </label>
+               <label>
+                   <span>Check-Out:</span>
+                   <br>
+                   <input type="date">
+               </label>
+           </div>
+            <button>book now</button>
+        </form>
+    </section>
+</body>
+</html>
